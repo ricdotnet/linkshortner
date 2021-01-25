@@ -1,6 +1,7 @@
 <?php
 
     require("extras/mysql.php"); //connect to the database
+    ob_start();
 
 ?>
 

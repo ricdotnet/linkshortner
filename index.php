@@ -61,7 +61,7 @@
         
 
         <!-- form container start -->
-        <div class="form-container">
+        <div id="form" class="form-container">
             <form action="" method="post">
                 <div class="label">Shorten a URL!</div>
                 <input oninput="validateForm()" class="top-input" id="urldestination" name="urldestination" type="url" autocomplete="off" value="http://">
@@ -72,6 +72,6 @@
         <!-- form container end -->
 
         <!-- import all .js scripts here -->
-        <script type="text/javascript" src="extras/scripts.js"></script>
+        <script type="text/javascript" src="extras/scripts.js" defer></script>
     </body>
 </html>

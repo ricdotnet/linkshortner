@@ -79,12 +79,17 @@ html, body {
 .generated-link {
     display: none;
     visibility: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    font-weight: 600;
 }
 
 /* reaction boxes */
 .success-box {
     width: 300px;
-    margin: 50px auto;
+    margin: 80px auto;
     box-sizing: border-box;
     background-color: #ade8ac;
     color: #096907;
@@ -95,7 +100,7 @@ html, body {
 }
 .error-box {
     width: 300px;
-    margin: 50px auto;
+    margin: 80px auto;
     box-sizing: border-box;
     background-color: #ff9c9c;
     color: #690707;
